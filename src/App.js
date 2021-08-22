@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { func } from 'prop-types';
+import React from 'react'
+// import App1 from './start'
+import App2 from './start1'
+// import App3 from './Project 3/start2'
+const  App =()=>
+{
+    return (
+        <div>
+            <App2 />
+        </div>
+    )
 }
-
 export default App;

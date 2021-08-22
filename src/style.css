@@ -1,0 +1,41 @@
+body {
+  background-color: olivedrab;
+}
+
+.center {
+  padding-top: 5%;
+}
+
+.para {
+  color: white;
+  font-size: 20px;
+}
+
+.box {
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  padding: 10px 50px;
+  margin: 1px;
+  box-shadow: 2px 2px 10px brown;
+  padding-left: 10px;
+}
+.image {
+  background-size: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.button {
+  box-sizing: border-box;
+  background-color: burlywood;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-right: 28px;
+  box-shadow: 2px 2px 10px black;
+}
+.display {
+  background-color: cadetblue;
+  margin-left: 40%;
+  margin-right: 42%;
+}
